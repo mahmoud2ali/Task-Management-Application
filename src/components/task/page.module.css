@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px rgba(0 , 0, 0, 0.5);
+    padding: 0 0 25px 10px;
+    margin: 15px;
+    max-width: 30vw;
+    overflow: auto; 
+}
+
+.main button{
+    position: absolute;
+    z-index: 5;
+    right: 10px;
+    top: 22px;
+    border: none;
+    background-color: #85acff;
+    width: 60px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.main button:hover{
+    background-color: #4d84fa;
+}

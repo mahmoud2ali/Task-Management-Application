@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.form input{ 
+   height: 20px;
+}
+
+.form button{
+    border: none;
+    height: 30px;
+    background-color: #85acff;
+    color: #fff;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #4d85ff;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 80vw;
+    margin: 50px auto;
+    
+}
