@@ -58,12 +58,3 @@ Make sure you have the following installed:
    npm start
    ```
 
-## API Endpoints
-
-| Method | Endpoint        | Description             |
-| ------ | --------------- | ----------------------- |
-| GET    | /api/tasks      | Get all tasks           |
-| POST   | /api/tasks      | Add a new task          |
-| PUT    | /api/tasks/\:id | Update an existing task |
-| DELETE | /api/tasks/\:id | Delete a task           |
-
